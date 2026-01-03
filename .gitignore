@@ -1,0 +1,40 @@
+# =========================
+# Rust / Cargo
+# =========================
+/target/
+**/target/
+
+# Cargo.lock handling:
+# - If this is a binary-only repo, you may commit Cargo.lock
+# - For now, ignore it until you decide
+Cargo.lock
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# =========================
+# OS / tooling noise
+# =========================
+Thumbs.db
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.log
+
+# =========================
+# Yocto / build artifacts
+# (should NEVER be committed from this repo)
+# =========================
+build/
+downloads/
+sstate-cache/
+tmp/
